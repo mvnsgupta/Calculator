@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <button id="myBtn" class="modal-btn"><img class = "image-pro" src="images/calc_image.png"></button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+                
+            </div>
+            
+            <button data-all-clear class = "opera">AC</button>
+            <button data-delete class = "opera">DEL</button>
+            <button data-operation class = "opera">%</button>
+            <button data-operation class = "opera" >÷</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation class = "opera">*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation class = "opera">+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation class = "opera">-</button>
+            <button onclick="myFunction()" class = "opera">D</button>
+            <button data-number>0</button>
+            <button data-number>.</button>
+            <button data-equals class = "opera">=</button>
+            <button  data-operation class="adv-op" >^</button>
+            <button  data-string class="adv-op" >e^x</button>
+            <button  data-string class="adv-op" >asin</button>
+            <button  data-operationsg class="adv-op" >acos</button>
+            <button  data-operationsg class="adv-op" >atan</button>
+            <button  data-operationsg class="adv-op" >√</button>
+            <button  data-operation class="adv-op" >x*√</button>
+            <button  data-operationsg class="adv-op" >sin</button>
+            <button  data-operationsg class="adv-op" >cos</button>
+            <button  data-operationsg class="adv-op" >tan</button>
+            <button  data-operationsg class="adv-op" >log</button>
+            <button  data-operationsg class="adv-op" >ln</button>
+    
+        </div> 
+        
+    </div>
+
+</div>   
+</body>
+</html>
